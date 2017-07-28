@@ -18,7 +18,8 @@ This is a simple chating room
 
 ## Notices: 
 
->###Following fundamentals should be utilize:
+> ###Following fundamentals should be utilize:
+>
 > 1.Operating System (OS): Web Socket
 >
 > 2.Operating System (OS): Multithreading programming which supporting mulfiles transformation at a time.
