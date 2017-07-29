@@ -38,14 +38,11 @@ public class Client {
                 socket = new Socket(IP_ADDR, PORT); 
 
                 //读取服务器端数据
-                DataInputStream input = new 
-    DataInputStream(socket.getInputStream());
+                DataInputStream input = new DataInputStream(socket.getInputStream());
                 //向服务器端发送数据
-                DataOutputStream out = new 
-                                  DataOutputStream(socket.getOutputStream());
+                DataOutputStream out  = new DataOutputStream(socket.getOutputStream());
                 System.out.print("请输入: \t");    
-                String str = new BufferedReader(new 
-InputStreamReader(System.in)).readLine();    
+                String str = new BufferedReader( new InputStreamReader(System.in) ).readLine();    
                 out.writeUTF(str);    
 
                 String ret = input.readUTF();     
