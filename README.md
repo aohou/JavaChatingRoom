@@ -10,15 +10,16 @@ This is a simple chating room
 > 
 > 1. Both an input textarea and a real-time chating record box text area are displaied.  
 > 2. Within the input textarea (Or: on the border of the inpiut textarea), two buttons should be displaied:  
- - one used to send the message(abbr. msg)
- - another used to transfer the file users liked
+> - one used to send the message(abbr. msg)
+> - another used to transfer the file users liked
 >
 > 3.Supporting multiple files transfromation at same time.
 
 
 ## Notices: 
 
->###Following fundamentals should be utilize:
+> ###Following fundamentals should be utilize:
+>
 > 1.Operating System (OS): Web Socket
 >
 > 2.Operating System (OS): Multithreading programming which supporting mulfiles transformation at a time.
